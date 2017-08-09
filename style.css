@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body {
+  background:
+  linear-gradient(
+     rgba(0, 0, 0, 0.7),
+     rgba(0, 0, 0, 0.7)
+   ),
+    url(usa-map.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.title-row {
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+.vertical-row-padding {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.last-row {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+/*.results-row {
+  background-color: #fff;
+}*/
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.estimate-number {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: #fff;
+}
+
+.section-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.form-control  {
+  border-radius: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  height: 44px;
+}
+
+.btn-estimate {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: #FF4020;
+  border-color: #FF4020;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.description {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.description a {
+  color: #FF4020;
+}
+
+/* Chart and Table*/
+
+.c3-axis-y text {
+   fill: #fff;
+   font-size:12px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+}
+.c3-axis-x text {
+    font-size:12px;
+    fill:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.c3 .c3-axis-x path, .c3 .c3-axis-x line {
+    stroke: #fff;
+}
+.c3 .c3-axis-y path, .c3 .c3-axis-y line {
+    stroke: #fff;
+}
+
+.c3 text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  fill: #fff;
+}
+
+.table>thead>tr>th {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #FF4020 !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact;
+}
+
+.table>tbody>tr>td {
+  /*background-color: #fff;*/
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+}
+
+hr {
+  background-color: #fff;
+}
+
+@media print {
+  .title {
+    color: #2a2a2a;
+    font-size: 24px;
+  }
+
+  .estimate-number {
+    color: #2a2a2a;
+    font-size: 22px;
+  }
+
+  .section-title {
+    color: #2a2a2a;
+    font-size: 14px;
+  }
+
+  .title-row {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .br {
+    display: none;
+  }
+
+  .c3-axis-y text {
+     fill: #2a2a2a;
+     font-size:12px;
+     font-family: 'Lato', sans-serif;
+     font-weight: 400;
+  }
+  .c3-axis-x text {
+      font-size:12px;
+      fill:#2a2a2a;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+  }
+
+  .c3 .c3-axis-x path, .c3 .c3-axis-x line {
+      stroke: #2a2a2a;
+  }
+  .c3 .c3-axis-y path, .c3 .c3-axis-y line {
+      stroke: #2a2a2a;
+  }
+  .c3 text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    fill: #2a2a2a;
+  }
+}
