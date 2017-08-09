@@ -1,7 +1,8 @@
 $(document).ready(function() {
   $(".hide-at-start").hide();
-  var autocomplete = new google.maps.places.Autocomplete(document.getElementById('newAddress'));
 });
+
+var autocomplete = new google.maps.places.Autocomplete(document.getElementById('newAddress'));
 
 function generateChart(data) {
   var chart = c3.generate({
